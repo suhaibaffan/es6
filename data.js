@@ -18,3 +18,5 @@ Math.trunc(3.8) // 3
 Math.log10(100) // 2
 Math.hypot(3,4) //5 Computes the square root of the sum of the squares of its arguments 
 
+255..toString(16) // 'ff'
+
