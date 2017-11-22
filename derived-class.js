@@ -1,3 +1,7 @@
+/**
+ * @name Person
+ * @desc parent class
+ */
 class Person {
     constructor(name){
         this.name = name;
@@ -7,6 +11,11 @@ class Person {
     }
 }
 
+
+/**
+ * @name Employee
+ * @description child class, super class = Person
+ */
 class Employee extends Person {
     constructor(name, title){
         super(name);
